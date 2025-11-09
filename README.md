@@ -13,6 +13,8 @@
    - [Estratégia de Marketing](#estratégia-de-marketing)
    - [História da Marca](#história-da-marca)
    - [Produto](#produto)
+   - [Brasão Heráldico](#brasão-heráldico)
+   - [Identidade Visual](#identidade-visual)
    - [Templates](#templates)
 4. [Estratégia de Marketing - Visão Geral](#estratégia-de-marketing---visão-geral)
    - [Sumário Executivo](#sumário-executivo)
@@ -54,11 +56,20 @@ O Ravenswood Tawny 40 Anos distingue-se pela intersecção de três elementos:
 ravenswood/
 │
 ├── README.md                                          # Este ficheiro
+├── ravenswood-douro-valley.jpg                        # Imagem da Quinta no Vale do Douro
 ├── Draft_Estrategia_Marketing_Ravenswood_v1.0.md     # Estratégia completa (versão 1.0)
 ├── produto_Ravenswood_Tawny_40_Anos.md               # Especificações do produto
 ├── resumo_história.md                                 # História da fundadora Dorothea Ravenswood
+├── brasao_ravenswood.md                               # Brasão heráldico da família
+├── palete_cores_ravenswood.md                         # Paleta de cores da identidade visual
 ├── wine_marketing_template.md                         # Template de marketing para vinhos
-└── guia_wine_marketing_template.md                    # Guia de utilização do template
+├── guia_wine_marketing_template.md                    # Guia de utilização do template
+└── images/                                            # Pasta com imagens do brasão
+    ├── brasao-ravenswood-completo-vinhas.jpg          # Brasão completo (versão vinhas)
+    ├── brasao-ravenswood-completo-terroir.jpg         # Brasão completo (versão terroir)
+    ├── brasao-ravenswood-monocromatico.jpg            # Brasão em preto e branco
+    ├── brasao-ravenswood-vintage.jpg                  # Brasão vintage/sépia
+    └── raven-simbolo.jpg                              # Corvo isolado
 ```
 
 ---
@@ -101,6 +112,56 @@ Especificações técnicas e comerciais do Ravenswood Tawny 40 Anos:
 - Método de produção
 - Posicionamento e preço
 - Packaging premium
+
+### Brasão Heráldico
+
+**Ficheiro**: [`brasao_ravenswood.md`](brasao_ravenswood.md) | **Imagens**: [images/](images/)
+
+O brasão da família Ravenswood é um símbolo heráldico que une as origens britânicas de Dorothea com a tradição vinícola do Douro.
+
+![Brasão Ravenswood](images/brasao-ravenswood-completo-terroir.jpg)
+
+**Estrutura do Brasão**:
+- **Quartel 1** (Superior Esquerdo): Três leões e âncora - Origem britânica (Bristol)
+- **Quartel 2** (Superior Direito): Videira sobre lagar de granito - Tradição vinícola
+- **Quartel 3** (Inferior Esquerdo): Navio à vela sob estrelas - Viagem e aventura
+- **Quartel 4** (Inferior Direito): Vale do Douro com socalcos - Terroir único
+
+**Elementos Heráldicos**:
+- **Timbre**: Corvo (*raven*) com asas abertas sobre barril - Sabedoria e vigilância
+- **Suportes**: Folhagem de videira com uvas - Fertilidade e abundância
+- **Lema**: *"Tempus non facit vinum, reverentia facit"* (Não é o tempo que faz o vinho, é o respeito por ele)
+
+**Versões Disponíveis**:
+- Brasão completo a cores (2 variantes: vinhas e terroir)
+- Brasão monocromático (preto e branco)
+- Brasão vintage (acabamento sépia)
+- Corvo isolado (símbolo simplificado)
+
+**Aplicações**: Rótulos premium, certificados de autenticidade, selo de cera, papelaria institucional, website.
+
+### Identidade Visual
+
+**Ficheiro**: [`palete_cores_ravenswood.md`](palete_cores_ravenswood.md)
+
+Paleta de cores oficial da família Ravenswood, inspirada no brasão familiar e desenhada para garantir coerência visual em todos os materiais de marketing:
+
+**Cores Primárias**:
+- 🟡 **Dourado Envelhecido** (#C5A566) - Luxo e história
+- 🔴 **Vinho Tinto Profundo** (#7C2D3B) - Paixão e vinho
+- 🔵 **Azul-Escuro Atlântico** (#2F4858) - Profundidade e solidez
+
+**Cores Secundárias**:
+- 🟤 **Âmbar/Terra Envelhecida** (#D1B07A) - Calor orgânico
+- ⚫ **Cinza-Granito** (#8E9B9C) - Neutralidade sofisticada
+- 🟢 **Verde-Oliva Escuro** (#5D6C4F) - Natureza vinícola
+
+**Cores Neutras**:
+- ⚫ **Preto Corvo** (#1A1A1A) - Texto principal
+- 🟡 **Creme/Pergaminho** (#F5ECCB) - Fundos elegantes
+- ⚪ **Branco Puro** (#FFFFFF) - Alto contraste
+
+**Aplicações**: Orientações específicas para PowerPoint, websites e documentos Word incluídas no ficheiro.
 
 ### Templates
 
@@ -290,6 +351,8 @@ Esta frase resume a visão de Dorothea: o envelhecimento é essencial, mas é a 
 - ✅ Estratégia de Marketing (Draft v1.0)
 - ✅ História da Fundadora
 - ✅ Especificações do Produto
+- ✅ Brasão Heráldico da Família (5 versões otimizadas)
+- ✅ Paleta de Cores e Identidade Visual
 - ✅ Templates de Marketing
 
 **Próximos Passos**:
@@ -313,6 +376,8 @@ Esta frase resume a visão de Dorothea: o envelhecimento é essencial, mas é a 
 - Mapa de mensagem (Anexo 2)
 - Guia de harmonizações (Anexo 4)
 - Matriz de risco-mitigação (Anexo 3)
+- Brasão heráldico da família (brasao_ravenswood.md)
+- Paleta de cores oficial da marca (palete_cores_ravenswood.md)
 
 ---
 
