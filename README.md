@@ -62,7 +62,7 @@ ravenswood/
 ├── resumo_história.md                                 # História da fundadora Dorothea Ravenswood
 ├── brasao_ravenswood.md                               # Brasão heráldico da família
 ├── palete_cores_ravenswood.md                         # Paleta de cores da identidade visual
-├── wine_marketing_template.md                         # Template de marketing para vinhos
+├── wine_marketing_template.md                         # Template de marketing para vinhos 
 ├── guia_wine_marketing_template.md                    # Guia de utilização do template
 └── images/                                            # Pasta com imagens
     ├── brasao-ravenswood-completo-vinhas.jpg          # Brasão completo (versão vinhas)
