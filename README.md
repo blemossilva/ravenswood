@@ -1,5 +1,10 @@
 # Projeto Ravenswood - Estratégia de Marketing
 
+![Quinta Ravenswood no Vale do Douro](ravenswood-douro-valley.jpg)
+*Elegância e tradição no coração do Vale do Douro - Quinta Tia Dorothea Ravenswood*
+
+---
+
 ## Índice
 
 1. [Sobre o Projeto](#sobre-o-projeto)
