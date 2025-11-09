@@ -64,12 +64,13 @@ ravenswood/
 ├── palete_cores_ravenswood.md                         # Paleta de cores da identidade visual
 ├── wine_marketing_template.md                         # Template de marketing para vinhos
 ├── guia_wine_marketing_template.md                    # Guia de utilização do template
-└── images/                                            # Pasta com imagens do brasão
+└── images/                                            # Pasta com imagens
     ├── brasao-ravenswood-completo-vinhas.jpg          # Brasão completo (versão vinhas)
     ├── brasao-ravenswood-completo-terroir.jpg         # Brasão completo (versão terroir)
     ├── brasao-ravenswood-monocromatico.jpg            # Brasão em preto e branco
     ├── brasao-ravenswood-vintage.jpg                  # Brasão vintage/sépia
-    └── raven-simbolo.jpg                              # Corvo isolado
+    ├── raven-simbolo.jpg                              # Corvo isolado
+    └── garrafa-ravenswood-tawny-40-anos.jpg           # Garrafa do produto
 ```
 
 ---
