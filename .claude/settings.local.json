@@ -3,7 +3,8 @@
     "allow": [
       "Bash(dir:*)",
       "Bash(python -c:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(stat:*)"
     ],
     "deny": [],
     "ask": []

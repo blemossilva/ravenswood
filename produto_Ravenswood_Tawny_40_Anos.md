@@ -21,6 +21,10 @@ Hoje, sob a mesma luz que outrora iluminou os lagares de granito, o legado de Do
 
 ## Características — Ravenswood Tawny 40 Anos
 
+![Ravenswood Tawny 40 Anos](images/garrafa-ravenswood-tawny-40-anos.jpg)
+
+*Garrafa premium do Ravenswood Tawny 40 Anos — Elegância e tradição em cada detalhe*
+
 ### Castas  
 
 Blend clássico das **castas nobres do Douro**, selecionadas de **vinhas muito velhas**:  
