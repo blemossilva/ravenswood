@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amostras da Paleta</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS Simples para a página */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f4f4; /* Fundo neutro para destacar as cores */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333338; /* Cinzento escuro da paleta */
+            margin-bottom: 20px;
+        }
+
+        /* O contentor da grelha */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        .palette-grid {
+            display: grid;
+            /* Grelha responsiva: muda o número de colunas conforme o espaço */
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        /* Cada "cartão" de amostra */
+        .swatch {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden; /* Garante que a caixa de cor fica dentro das bordas */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .swatch:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        /* A caixa de cor */
+        .color-box {
+            height: 140px;
+            width: 100%;
+            /* A cor será definida no HTML */
+        }
+
+        /* A informação da cor */
+        .color-info {
+            padding: 15px;
+            background-color: #fff;
+        }
+
+        .color-info strong {
+            display: block;
+            font-size: 1.1em;
+            color: #111;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+        }
+
+        .color-info span {
+            font-family: monospace, monospace;
+            color: #555;
+            font-size: 1em;
+        }
+
+        /* --- NOVOS ESTILOS PARA EXEMPLOS --- */
+        .examples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .example-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border: 1px solid #eee;
+        }
+
+        .example-header {
+            padding: 15px 20px;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        .example-body {
+            padding: 20px;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        
+        .example-body p {
+            margin: 0 0 15px 0;
+        }
+
+        .example-button {
+            display: inline-block;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        /* Classes de utilidade para os exemplos */
+        .bg-dourado-claro { background-color: #BA9256; }
+        .bg-bege-claro { background-color: #E6D2AA; }
+        .bg-vinho-escuro { background-color: #5F2520; }
+        .bg-bege-dourado { background-color: #D9BE90; }
+        .bg-dourado-queimado { background-color: #A37A3E; }
+        .bg-dourado-suave { background-color: #C8A773; }
+        .bg-cinzento-escuro { background-color: #333338; }
+
+        .text-vinho-escuro { color: #5F2520; }
+        .text-castanho-medio { color: #7D5B32; }
+        .text-cinzento-escuro { color: #333338; }
+        .text-bege-claro { color: #E6D2AA; }
+        .text-white { color: #FFFFFF; }
+
+    </style>
+</head>
+<body>
+
+    <h1>Amostras da Paleta</h1>
+
+    <!-- Contentor das Amostras -->
+    <div class="container">
+        <div class="palette-grid">
+
+            <!-- Amostra 1: Dourado claro -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #BA9256;"></div>
+                <div class="color-info">
+                    <strong>Dourado claro</strong>
+                    <span>#BA9256</span>
+                </div>
+            </div>
+
+            <!-- Amostra 2: Bege claro -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #E6D2AA;"></div>
+                <div class="color-info">
+                    <strong>Bege claro</strong>
+                    <span>#E6D2AA</span>
+                </div>
+            </div>
+
+            <!-- Amostra 3: Vinho escuro -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #5F2520;"></div>
+                <div class="color-info">
+                    <strong>Vinho escuro</strong>
+                    <span>#5F2520</span>
+                </div>
+            </div>
+
+            <!-- Amostra 4: Castanho médio -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #7D5B32;"></div>
+                <div class="color-info">
+                    <strong>Castanho médio</strong>
+                    <span>#7D5B32</span>
+                </div>
+            </div>
+
+            <!-- Amostra 5: Bege dourado -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #D9BE90;"></div>
+                <div class="color-info">
+                    <strong>Bege dourado</strong>
+                    <span>#D9BE90</span>
+                </div>
+            </div>
+
+            <!-- Amostra 6: Dourado queimado -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #A37A3E;"></div>
+                <div class="color-info">
+                    <strong>Dourado queimado</strong>
+                    <span>#A37A3E</span>
+                </div>
+            </div>
+
+            <!-- Amostra 7: Dourado suave -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #C8A773;"></div>
+                <div class="color-info">
+                    <strong>Dourado suave</strong>
+                    <span>#C8A773</span>
+                </div>
+            </div>
+
+            <!-- Amostra 8: Cinzento escuro -->
+            <div class="swatch">
+                <div class="color-box" style="background-color: #333338;"></div>
+                <div class="color-info">
+                    <strong>Cinzento escuro</strong>
+                    <span>#333338</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Nova Secção: Exemplos de Utilização -->
+    <h2>Exemplos de Utilização</h2>
+    
+    <div class="container">
+        <div class="examples-grid">
+            
+            <!-- Exemplo 1: Cartão de Conteúdo -->
+            <div class="example-card">
+                <!-- Fundo Secundário: Bege claro -->
+                <div class="example-body bg-bege-claro">
+                    <!-- Destaque / Ênfase: Vinho escuro -->
+                    <h3 class="text-vinho-escuro" style="font-size: 1.3em; font-weight: 600; margin-bottom: 10px;">Cartão de Conteúdo</h3>
+                    <!-- Texto Principal: Castanho médio -->
+                    <p class="text-castanho-medio">Este é um parágrafo de texto principal ('Castanho médio') sobre o 'Fundo Secundário' ('Bege claro').</p>
+                    
+                    <!-- Cor Primária: Dourado claro -->
+                    <a href="#" class="example-button bg-dourado-claro text-cinzento-escuro"
+                       onmouseover="this.style.backgroundColor='#A37A3E'; this.style.color='#FFFFFF'"
+                       onmouseout="this.style.backgroundColor='#BA9256'; this.style.color='#333338'">
+                        Botão Primário
+                    </a>
+                    <span style="font-size: 0.8em; color: #7D5B32; margin-left: 10px;">Hover: Dourado queimado</span>
+                </div>
+            </div>
+
+            <!-- Exemplo 2: Combinações de Texto e Fundo -->
+            <div class="example-card">
+                <!-- Destaque / Ênfase: Vinho escuro -->
+                <div class="example-header bg-vinho-escuro text-bege-claro">
+                    Alto Contraste
+                </div>
+                <!-- Fundo Principal: Bege dourado -->
+                <div class="example-body bg-bege-dourado">
+                    <!-- Texto Alternativa: Cinzento escuro -->
+                    <p class="text-cinzento-escuro">Texto 'Cinzento escuro' sobre o 'Fundo Principal' ('Bege dourado') para boa legibilidade.</p>
+                    <!-- Linhas / Detalhes: Dourado suave -->
+                    <hr style="border: none; height: 2px; background-color: #C8A773; margin: 15px 0;">
+                    <p class="text-castanho-medio">Um separador ('Dourado suave') e texto 'Castanho médio'.</p>
+                </div>
+            </div>
+
+            <!-- Exemplo 3: Texto sobre Escuro -->
+            <div class="example-card">
+                <!-- Texto Alternativa: Cinzento escuro -->
+                <div class="example-header bg-cinzento-escuro text-white">
+                    Cabeçalho Escuro
+                </div>
+                <!-- Fundo Secundário: Bege claro -->
+                <div class="example-body bg-bege-claro">
+                    <p class="text-castanho-medio">Uso do 'Cinzento escuro' como fundo para cabeçalhos ou rodapés, com texto 'Branco' ou 'Bege claro' para um contraste elegante.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
