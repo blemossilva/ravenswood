@@ -1,105 +1,82 @@
-# Paleta de Cores da Família Ravenswood
 
-Esta paleta de cores é inspirada no brasão da família Ravenswood, projetada para garantir coerência visual em apresentações, websites e documentos, evocando a elegância histórica e a herança vinícola.
+## 🎨 **Tema de Cores PowerPoint — Ravenswood Heritage**
 
----
-
-## Cores Primárias (Base & Destaque)
-
-Estas são as cores mais proeminentes e devem ser usadas para grandes blocos de conteúdo, títulos e elementos de destaque.
-
-* **Dourado Envelhecido / Ouro Antigo**
-    * HEX: `#C5A566`
-    * RGB: `(197, 165, 102)`
-    * HSL: `(39, 42%, 59%)`
-    * *Uso: Fundos de destaque, títulos importantes, elementos gráficos que requerem um toque de luxo e história.*
-
-* **Vinho Tinto Profundo / Borgonha**
-    * HEX: `#7C2D3B`
-    * RGB: `(124, 45, 59)`
-    * HSL: `(350, 48%, 33%)`
-    * *Uso: Títulos, botões, barras de navegação, texto de destaque, elementos gráficos que remetem à paixão e ao vinho.*
-
-* **Azul-Escuro Atlântico / Azul-Marinho**
-    * HEX: `#2F4858`
-    * RGB: `(47, 72, 88)`
-    * HSL: `(204, 31%, 28%)`
-    * *Uso: Fundos de secções, texto principal, elementos de rodapé, menus. Evoca profundidade e solidez.*
+A paleta mantém o estilo nobre, vinícola e clássico do brasão Ravenswood, priorizando elegância e contraste legível para apresentações profissionais.
 
 ---
 
-## Cores Secundárias (Complemento & Detalhe)
+### 🧭 **Mapa das cores (para inserir em PowerPoint)**
 
-Estas cores complementam as primárias e são ideais para detalhes, ícones, subtítulos ou para adicionar variedade visual sem sobrecarregar.
-
-* **Âmbar / Terra Envelhecida**
-    * HEX: `#D1B07A`
-    * RGB: `(209, 176, 122)`
-    * HSL: `(35, 48%, 65%)`
-    * *Uso: Fundos claros, caixas de texto, detalhes gráficos, bordas. Traz calor e um toque orgânico.*
-
-* **Cinza-Granito / Cinza-Pedra**
-    * HEX: `#8E9B9C`
-    * RGB: `(142, 155, 156)`
-    * HSL: `(186, 6%, 58%)`
-    * *Uso: Texto secundário, linhas divisórias, ícones, elementos de interface que requerem neutralidade e sofisticação.*
-
-* **Verde-Oliva Escuro / Verde-Vinhedo**
-    * HEX: `#5D6C4F`
-    * RGB: `(93, 108, 79)`
-    * HSL: `(92, 17%, 37%)`
-    * *Uso: Elementos naturais, ícones relacionados à natureza, detalhes orgânicos em gráficos. Complementa o tema vinícola.*
+| Opção do PowerPoint          | Cor       | HEX                                        | Nome sugerido |
+| ---------------------------- | --------- | ------------------------------------------ | ------------- |
+| **Texto / Fundo - Escuro 1** | `#333338` | Cinzento escuro (texto padrão)             |               |
+| **Texto / Fundo - Claro 1**  | `#E6D2AA` | Bege claro (fundo principal)               |               |
+| **Texto / Fundo - Escuro 2** | `#5F2520` | Vinho escuro (títulos / contrastes fortes) |               |
+| **Texto / Fundo - Claro 2**  | `#D9BE90` | Bege dourado (fundos suaves)               |               |
+| **Acento 1**                 | `#BA9256` | Dourado claro (destaque principal)         |               |
+| **Acento 2**                 | `#A37A3E` | Dourado queimado (hover / botões)          |               |
+| **Acento 3**                 | `#7D5B32` | Castanho médio (elementos gráficos)        |               |
+| **Acento 4**                 | `#C8A773` | Dourado suave (ícones, molduras)           |               |
+| **Acento 5**                 | `#5F2520` | Vinho escuro (ênfases secundárias)         |               |
+| **Acento 6**                 | `#333338` | Cinzento escuro (texto sobre fundo claro)  |               |
+| **Hiperligação (Link)**      | `#A37A3E` | Dourado queimado (hover links)             |               |
+| **Hiperligação visitada**    | `#7D5B32` | Castanho médio                             |               |
 
 ---
 
-## Cores Neutras (Fundo & Texto Geral)
+### 🪶 **Como aplicar no PowerPoint**
 
-Essas cores são essenciais para a legibilidade e para proporcionar um ambiente equilibrado.
+1. Abra o PowerPoint.
+2. Vá a **Design → Variantes → Cores → Personalizar Cores**.
+3. Na janela que se abre, substitua cada campo pelas cores abaixo:
 
-* **Preto Corvo / Grafite Escuro**
-    * HEX: `#1A1A1A`
-    * RGB: `(26, 26, 26)`
-    * HSL: `(0, 0%, 10%)`
-    * *Uso: Texto principal do corpo, ícones, contornos. Garante alta legibilidade.*
+| Campo                    | Código HEX a inserir |
+| ------------------------ | -------------------- |
+| Texto / Fundo - Escuro 1 | `#333338`            |
+| Texto / Fundo - Claro 1  | `#E6D2AA`            |
+| Texto / Fundo - Escuro 2 | `#5F2520`            |
+| Texto / Fundo - Claro 2  | `#D9BE90`            |
+| Acento 1                 | `#BA9256`            |
+| Acento 2                 | `#A37A3E`            |
+| Acento 3                 | `#7D5B32`            |
+| Acento 4                 | `#C8A773`            |
+| Acento 5                 | `#5F2520`            |
+| Acento 6                 | `#333338`            |
+| Hiperligação             | `#A37A3E`            |
+| Hiperligação (visitada)  | `#7D5B32`            |
 
-* **Creme / Pergaminho Leve (Fundo)**
-    * HEX: `#F5ECCB`
-    * RGB: `(245, 236, 203)`
-    * HSL: `(43, 62%, 88%)`
-    * *Uso: Cor de fundo principal para websites, documentos e slides de apresentações. Evoca a textura do pergaminho antigo.*
+4. Dê o nome ao tema:
+   **“Ravenswood Heritage”**
 
-* **Branco Puro** (Para contraste, se necessário, especialmente sobre cores escuras)
-    * HEX: `#FFFFFF`
-    * RGB: `(255, 255, 255)`
-    * HSL: `(0, 0%, 100%)`
-    * *Uso: Texto sobre fundos escuros, elementos gráficos de alto contraste.*
-
----
-
-## Orientações de Aplicação:
-
-### Para Apresentações PowerPoint:
-
-* **Fundo dos Slides:** Use `#F5ECCB` (Creme/Pergaminho) para a maioria dos slides para um visual clássico.
-* **Títulos Principais:** Opte por `#7C2D3B` (Vinho Tinto Profundo) ou `#2F4858` (Azul-Escuro Atlântico).
-* **Texto do Corpo:** Utilize `#1A1A1A` (Preto Corvo) para garantir legibilidade.
-* **Destaques e Gráficos:** Empregue `#C5A566` (Dourado Envelhecido) para um toque de luxo e `#D1B07A` (Âmbar) para elementos mais subtis.
-* **Linhas e Separadores:** `#8E9B9C` (Cinza-Granito) é ideal para elementos neutros.
-
-### Para Criação de Websites:
-
-* **Fundo Principal do Site:** `#F5ECCB` para a área de conteúdo.
-* **Cabeçalho e Rodapé:** Considere `#2F4858` ou `#7C2D3B` para criar seções distintas.
-* **Links e Botões:** Use `#7C2D3B` para o estado normal e `#C5A566` para o estado de "hover" (passar o rato por cima) ou "ativo".
-* **Texto Principal:** `#1A1A1A` para o corpo; `#2F4858` ou `#7C2D3B` para títulos e cabeçalhos.
-
-### Para Temas de Documentos Word:
-
-* **Fundo da Página:** Mantenha o papel branco padrão ou configure um fundo com `#F5ECCB` para um tema mais "antigo".
-* **Títulos:** `#7C2D3B` ou `#2F4858` para os títulos e subtítulos dos documentos.
-* **Texto do Corpo:** `#1A1A1A` para garantir a máxima legibilidade em impressões e ecrãs.
-* **Hyperlinks:** Podem seguir o `#2F4858` ou o `#7C2D3B` para manter a identidade visual da marca.
+5. Clique em **Guardar**.
 
 ---
 
-Esta paleta oferece flexibilidade para criar designs que sejam ao mesmo tempo modernos e profundamente enraizados na história e estética da família Ravenswood, garantindo uma identidade visual coesa e elegante em todas as plataformas.
+### 🖋️ **Sugestões de uso visual**
+
+* **Títulos:** `#5F2520` (vinho escuro)
+* **Texto principal:** `#333338` (cinzento escuro)
+* **Fundo do slide:** `#E6D2AA` ou `#D9BE90`
+* **Elementos gráficos:** usar os acentos 1 a 4 para diferenciação visual em gráficos, ícones e blocos de destaque.
+* **Botões / Destaques:** `#BA9256` (dourado claro) com texto `#333338`.
+
+### 🖋️ **XML para o PowerPoint**
+
+```XML
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<a:clrScheme xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" name="Ravenswood Heritage">
+  <a:dk1><a:srgbClr val="333338"/></a:dk1>
+  <a:lt1><a:srgbClr val="E6D2AA"/></a:lt1>
+  <a:dk2><a:srgbClr val="5F2520"/></a:dk2>
+  <a:lt2><a:srgbClr val="D9BE90"/></a:lt2>
+  <a:accent1><a:srgbClr val="BA9256"/></a:accent1>
+  <a:accent2><a:srgbClr val="A37A3E"/></a:accent2>
+  <a:accent3><a:srgbClr val="7D5B32"/></a:accent3>
+  <a:accent4><a:srgbClr val="C8A773"/></a:accent4>
+  <a:accent5><a:srgbClr val="5F2520"/></a:accent5>
+  <a:accent6><a:srgbClr val="333338"/></a:accent6>
+  <a:hlink><a:srgbClr val="A37A3E"/></a:hlink>
+  <a:folHlink><a:srgbClr val="7D5B32"/></a:folHlink>
+</a:clrScheme>
+
+```
